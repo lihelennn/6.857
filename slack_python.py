@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 
 def is_request_valid(request):
-    is_token_valid = request.form['token'] == 'IP4seaOAjBd4DxlcDyGPpCar'
-    is_team_id_valid = request.form['team_id'] == 'THZUV8F9Q'
+    is_token_valid = request.form['token'] == ### Insert TOKEN
+    is_team_id_valid = request.form['team_id'] == ### Insert Team ID
 
     return is_token_valid and is_team_id_valid
 
